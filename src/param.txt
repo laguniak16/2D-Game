@@ -1,0 +1,6 @@
+# Plik dodatkowy parametryczny gry.
+czasGry=10
+wartosc1=6
+wartosc2=10
+czasDoBonusu=3
+czasBonusu=3

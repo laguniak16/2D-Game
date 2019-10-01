@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.HelpController">
+   <children>
+      <TextArea editable="false" prefHeight="443.0" prefWidth="617.0" text="                                                                        POMOC&#10;&#10;1.Menu&#10;a)Przycisk wyboru poziomu trudności umożliwia wybranie poziomu domyślnie ustawiony&#10; jest łatwy.&#10;b)Aby zacząć grę należy nacisnać przycisk start,oraz podaj swój nick.&#10;c)Pod przyciskiem wyniki znajduje się lista 5 najlepszych wyników uzyskanych przez graczy&#10;2.Gra&#10;a)Aby rozpocząć grę należy nacisnać przycisk start.&#10;b)W grze możliwe jest użycie spacji która znajduje sie pod przyciskiem pause.&#10;c)Aby wyjść z gry należy nacisnać wyjście.&#10;-Nastepny 0/trafienia  oznacza ile należy zestrzelić celów aby przedostać się na kolejny&#10;poziom.&#10;-Punkty: oznaczaja ilość zdobytych punktów.&#10;-Na planszy pokazana jest rownież ilość punktów jakie można zdobyć za celny lub &#10;niecelny strzał.&#10;-Czasami na planszy wyskakują bonusy mnożace możliwe do zdobycia punkty tyle&#10;razy ile pokazane jest na skrzynce.&#10;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor></TextArea>
+      <Button fx:id="button" layoutX="269.0" layoutY="398.0" mnemonicParsing="false" onAction="#close" prefHeight="31.0" prefWidth="80.0" text="Wyjście" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

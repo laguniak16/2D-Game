@@ -1,0 +1,5 @@
+hej 68 3 
+bal 60 3 
+adfs 59 3 
+byczek1 58 3 
+boczek1 38 3 
